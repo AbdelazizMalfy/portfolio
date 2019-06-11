@@ -114,8 +114,12 @@ main {
 
   .job {
     background: lighten($primary-color, 5);
-    padding: 0.7rems;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
+
+    li {
+      list-style: none;
+    }
   }
 }
 
